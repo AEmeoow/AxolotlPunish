@@ -1,0 +1,131 @@
+mutepage:
+  # The title of the mutepage GUI
+  gui_title: "STEALFUN ⋙ MUTEPAGE"
+  mutepage_slots: 27
+
+  # Configurations for the first tier of chat abuse
+  chatabuse_tier1:
+    display_name: "#FF0995&lCHAT ABUSE &8- &fTier 1" # The display name of the item
+    lore:
+      - "&8Staff Utility"
+      - ""
+      - "&fReasons:"
+      - "&d- &fSpamming"
+      - "&d- &fFlooding"
+      - "&d- &fNon-English"
+      - "&d- &fToxicity"
+      - "&d- &fBypassing Filter"
+      - "&d- &fOther"
+      - ""
+      - "&e⋙ Click to Continue."
+    material: "PAPER" # The material of the item
+    slot: 11 # The slot in the GUI where the item should be placed
+
+  # Configurations for the second tier of chat abuse
+  chatabuse_tier2:
+    display_name: "#FF0995&lCHAT ABUSE &8- &fTier 2"
+    lore:
+      - "&8Staff Utility"
+      - ""
+      - "&fReasons:"
+      - "&d- &fContinued offenses from tier 1"
+      - "&d- &fRacism"
+      - "&d- &fServer Hate"
+      - "&d- &fSubtle Threats"
+      - "&d- &fDiscrimination"
+      - "&d- &fOther"
+      - ""
+      - "&e⋙ Click to Continue."
+    material: "PAPER"
+    slot: 13
+
+  # Configurations for the third tier of chat abuse
+  chatabuse_tier3:
+    display_name: "#FF0995&lCHAT ABUSE &8- &fTier 3"
+    lore:
+      - "&8Staff Utility"
+      - ""
+      - "&fReasons:"
+      - "&d- &fContinued offenses from tier 2"
+      - "&d- &fAdvertising"
+      - "&d- &fDDoS/DOX Threats"
+      - "&d- &fOther"
+      - ""
+      - "&e⋙ Click to Continue."
+    material: "PAPER"
+    slot: 15
+
+banpage:
+  gui-title: "STEALFUN ⋙ BANPAGE"
+  banpage_slots: 36
+
+
+  unfair-advantage:
+    display-name: "#FF0995&lUNFAIR ADVANTAGE"
+    lore:
+      - "&8Staff Utility"
+      - ""
+      - "&fReasons:"
+      - "&d- &fHacking / Cheating"
+      - "&d- &fFlying"
+      - "&d- &fSpeed"
+      - "&d- &fJump"
+      - "&d- &fOther"
+      - ""
+      - "&e⋙ Click to Continue."
+    material: "TNT"
+    slot: 11
+
+
+  xray:
+    display-name: "#FF0995&lXRAY"
+    lore:
+      - "&8Staff Utility"
+      - ""
+      - "&fPlayers X-Rayiing?"
+      - "&fThis is the correct option!"
+      - ""
+      - "&e⋙ Click to Continue."
+    material: "DIAMOND_ORE"
+    slot: 13
+
+
+  abusing-glitches:
+    display-name: "#FF0995&lABUSING GLITCHES"
+    lore:
+      - "&8Staff Utility"
+      - ""
+      - "&fIs a player abusing unintentional game"
+      - "&fdesign? This is the correct option"
+      - ""
+      - "&e⋙ Click to Continue."
+    material: "BARRIER"
+    slot: 15
+
+  alt-grinding:
+    display-name: "#FF0995&lALT GRINDING"
+    lore:
+      - "&8Staff Utility"
+      - ""
+      - "&fHas a player been using alt accounts to their"
+      - "&fAdvantage? If so, select this option!"
+      - ""
+      - "&e⋙ Click to Continue."
+    material: "ANVIL"
+    slot: 21
+
+  community-misconduct:
+    display-name: "#FF0995&lCOMMUNITY MISCONDUCT"
+    lore:
+      - "&8Staff Utility"
+      - ""
+      - "&fReasons:"
+      - "&d- &fDeath Threats"
+      - "&d- &fDDoS Threats"
+      - "&d- &fDOX Threats"
+      - ""
+      - "&e⋙ Click to Continue."
+    material: "ANVIL"
+    slot: 23
+
+

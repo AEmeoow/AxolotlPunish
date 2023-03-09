@@ -1,0 +1,14 @@
+name: AxolotlPunish
+version: 1
+main: axolotlstudios.AxolotlPunish
+api-version: 1.19
+author: AxolotlStudios
+softdepend:
+  - LiteBans
+description: Whatever punish plugin you are using must run on the backend servers to work, not proxy.
+
+commands:
+  axolotlpunish:
+    description: Opens punish GUI.
+
+
